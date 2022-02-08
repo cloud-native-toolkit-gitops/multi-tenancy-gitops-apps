@@ -13,8 +13,8 @@ spec:
   project: applications
   source:
     path: mq/environments/dev/mq-infra
-    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
-    targetRevision: master
+    repoURL: https://gitea-tools.instana-mq-6qwkjtsh-b9aa1303e037748136e24e1f282ebee9-0000.us-south.containers.appdomain.cloud/gitops-org/multi-tenancy-gitops-apps.git
+    targetRevision: main
     helm:
       valueFiles:
       - values.yaml
