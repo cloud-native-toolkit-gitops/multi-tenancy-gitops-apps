@@ -7,11 +7,11 @@ metadata:
     type: git
   name: gitops-repo
 data:
-  branch: ${GIT_BRANCH}
+  branch: main
   host: gitea-tools.instana-mq-6qwkjtsh-b9aa1303e037748136e24e1f282ebee9-0000.us-south.containers.appdomain.cloud
-  org: ${GIT_ORG}
-  owner: ${GIT_ORG}
+  org: gitops-org
+  owner: gitops-org
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops-apps
-  url: https://gitea-tools.instana-mq-6qwkjtsh-b9aa1303e037748136e24e1f282ebee9-0000.us-south.containers.appdomain.cloud/${GIT_ORG}/multi-tenancy-gitops-apps.git
+  url: https://gitea-tools.instana-mq-6qwkjtsh-b9aa1303e037748136e24e1f282ebee9-0000.us-south.containers.appdomain.cloud/gitops-org/multi-tenancy-gitops-apps.git
