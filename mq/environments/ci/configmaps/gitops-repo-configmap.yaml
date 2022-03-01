@@ -8,9 +8,9 @@ metadata:
   name: gitops-repo
 data:
   branch: main
-  host: gitea-tools.instana-mq-6qwkjtsh-b9aa1303e037748136e24e1f282ebee9-0000.us-south.containers.appdomain.cloud
-  org: gitops-org
-  owner: gitops-org
+  host: github.com
+  org: cloud-native-toolkit-gitops
+  owner: cloud-native-toolkit-gitops
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops-apps
